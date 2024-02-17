@@ -1,3 +1,5 @@
 *.class
 
+/pjCapitulo1/target/
+
 /pjCapitulo1/nb-configuration.xml
