@@ -216,7 +216,6 @@ public class frmCapital extends javax.swing.JFrame {
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
         
         //ENTRADA
-        
         //Recuperando información del formulario
         double monto1 = Double.parseDouble(txtMonto1.getText());
         double monto2 = Double.parseDouble(txtMonto2.getText());
@@ -226,14 +225,12 @@ public class frmCapital extends javax.swing.JFrame {
         
         //Calculando el monto del capital
         double capital = monto1 + monto2 + monto3;
-        
         //Calculando el porcentaje por monto
         double porcentaje1 = (monto1 * 100) / capital;
         double porcentaje2 = (monto2 * 100) / capital;
         double porcentaje3 = (monto3 * 100) / capital;
         
         //SALIDA
-        
         //Imprimir los resultados
         lblCapital.setText("$ " + String.format("%.2f", capital));
         lblPorCantidadSocio1.setText(String.format("%.2f", porcentaje1) + "%");
