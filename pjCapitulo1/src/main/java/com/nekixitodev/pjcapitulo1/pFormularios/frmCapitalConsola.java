@@ -4,12 +4,16 @@
  */
 package com.nekixitodev.pjcapitulo1.pFormularios;
 
+import java.util.Scanner;
+
 /**
  *
  * @author nekix
  */
 public class frmCapitalConsola {
     public static void main(String[] args) {
+        Scanner consola = new Scanner(System.in);
+        
         
     }
 }
